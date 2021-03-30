@@ -1,521 +1,521 @@
 const pokemon = [
     {
         id:1,
-        name:Bulbasaur,
+        name:"Bulbasaur",
         number:1
     },
     {
         id:2,
-        name:Venusar,
+        name:"Venusar",
         number:1
     },
     {
         id:3,
-        name:Charmander,
+        name:"Charmander",
         number:2
     },
     {
         id:4,
-        name:Charizard,
+        name:"Charizard",
         number:2
     },
     {
         id:5,
-        name:Squirtle,
+        name:"Squirtle",
         number:3
     },
     {
         id:6,
-        name:Blastoise,
+        name:"Blastoise",
         number:3
     },
     {
         id:7,
-        name:Caterpie,
+        name:"Caterpie",
         number:4
     },
     {
         id:8,
-        name: Butterfree,
+        name: "Butterfree",
         number:4
     },
     {
         id:9,
-        name:Weedle,
+        name:"Weedle",
         number:5
     },
     {
         id:10,
-        name: Beedrill,
+        name: "Beedrill",
         number:5
     },
     {
         id:11,
-        name:Pidgey,
+        name:"Pidgey",
         number:6
     },
     {
         id:12,
-        name: Pidgeot,
+        name: "Pidgeot",
         number:6
     },
     {
         id:13,
-        name: Rattata,
+        name: "Rattata",
         number:7
     },
     {
         id:14,
-        name: Raticate,
+        name: "Raticate",
         number:7
     },
     {
         id:15,
-        name:Spearow,
+        name:"Spearow",
         number:8
     },
     {
         id:16,
-        name: Fearow,
+        name: "Fearow",
         number:8
     },
     {
         id:17,
-        name: Ekans,
+        name: "Ekans",
         number:9
     },
     {
         id:18,
-        name: Arbok,
+        name: "Arbok",
         number: 9
     },
     {
         id:19,
-        name: Pikachu,
+        name: "Pikachu",
         number:10
     },
     {
         id:20,
-        name: Raichu,
+        name: "Raichu",
         number:10
     },
     {
         id:21,
-        name: Sandshrew,
+        name: "Sandshrew",
         number:11
     },
     {
         id:22,
-        name:Sandslash,
+        name:"Sandslash",
         number:11
     },
     {
         id:23,
-        name: Nidorina,
+        name: "Nidorina",
         number:12
     },
     {
         id:24,
-        name: Nidoqueen,
+        name: "Nidoqueen",
         number:12
     },
     {
         id:25,
-        name:Nidorino,
+        name:"Nidorino",
         number:13
     },
     {
         id:26,
-        name:Nidoking,
+        name:"Nidoking",
         number:13
     },
     {
         id:27,
-        name: Clefairy,
+        name: "Clefairy",
         number:14
     },
     {
         id:28,
-        name: Clefable,
+        name: "Clefable",
         number:14
     },
     {
         id:29,
-        name:Vulpix,
+        name:"Vulpix",
         number:15
     },
     {
         id:30,
-        name:Ninetails,
+        name:"Ninetails",
         number:15
     },
     {
         id:31,
-        name:Jigglypuff,
+        name:"Jigglypuff",
         number:16
     },
     {
         id:32,
-        name: Wigglytuff,
+        name: "Wigglytuff",
         number:16
     },
     {
         id:33,
-        name: Zubat,
+        name: "Zubat",
         number:17
     },
     {
         id:34,
-        name: Golbat,
+        name: "Golbat",
         number:17
     },
     {
         id:35,
-        name:Oddish,
+        name:"Oddish",
         number:18
     },
     {
         id:36,
-        name:Vielpume,
+        name:"Vielpume",
         number:18
     },
     {
         id:37,
-        name:Paras,
+        name:"Paras",
         number:19
     },
     {
         id:38,
-        name:Parasect,
+        name:"Parasect",
         number:19
     },
     {
         id:39,
-        name:Venonat,
+        name:"Venonat",
         number:20
     },
     {
         id:40,
-        name: Venomoth,
+        name: "Venomoth",
         number:20
     },    {
         id:41,
-        name:Diglett,
+        name:"Diglett",
         number:21
     },
     {
         id:42,
-        name:Dugtrio,
+        name:"Dugtrio",
         number:21
     },
     {
         id:43,
-        name:Meowth,
+        name:"Meowth",
         number:22
     },
     {
         id:44,
-        name:Persian,
+        name:"Persian",
         number:22
     },
     {
         id:45,
-        name: Psyduck,
+        name: "Psyduck",
         number:23
     },
     {
         id:46,
-        name:Golduck,
+        name:"Golduck",
         number:23
     },
     {
         id:47,
-        name:Mankey,
+        name:"Mankey",
         number:24
     },
     {
         id:48,
-        name:Primeape,
+        name:"Primeape",
         number:24
     },
     {
         id:49,
-        name: Growlithe,
+        name: "Growlithe",
         number:25
     },
     {
         id:50,
-        name:Arcanine,
+        name:"Arcanine",
         number:25
     },
     {
         id:51,
-        name:Poliwag,
+        name:"Poliwag",
         number:26
     },
     {
         id:52,
-        name:Poliwrath,
+        name:"Poliwrath",
         number:26
     },
     {
         id: 53,
-        name:Abra,
+        name:"Abra",
         number:27
     },
     {
         id:54,
-        name: Alakazam,
+        name: "Alakazam",
         number:27
     },
     {
         id:55,
-        name:Machop,
+        name:"Machop",
         number:28
     },
     {
         id:56,
-        name:Machamp,
+        name:"Machamp",
         number:28
     },
     {
         id:57,
-        name:Bellsprout,
+        name:"Bellsprout",
         number:29
     },
     {
         id:58,
-        name:Victreebel,
+        name:"Victreebel",
         number:29
     },
     {
         id:59,
-        name:Tentacool,
+        name:"Tentacool",
         number:30
     },
     {
         id:60,
-        name:Tentacruel,
+        name:"Tentacruel",
         number:30
     },
     {
         id:61,
-        name:Geodude,
+        name:"Geodude",
         number:31
     },
     {
         id:62,
-        name:Golem,
+        name:"Golem",
         number:31
     },
     {
         id:63,
-        name:Ponyta,
+        name:"Ponyta",
         number:32
     },
     {
         id:64,
-        name: Rapidash,
+        name: "Rapidash",
         number:32
     },
     {
         id:65,
-        name:Slowpoke,
+        name:"Slowpoke",
         number:33
     },
     {
         id:66,
-        name:Slowbro,
+        name:"Slowbro",
         number:33
     },
     {
         id:67,
-        name:Magnemite,
+        name:"Magnemite",
         number:34
     },
     {
         id:68,
-        name:Magneton,
+        name:"Magneton",
         number:34
     },
     {
         id:69,
-        name:Doduo,
+        name:"Doduo",
         number:35
     },
     {
         id:70,
-        name:Dodrio,
+        name:"Dodrio",
         number:35
     },
     {
         id:71,
-        name:Seel,
+        name:"Seel",
         number:36
     },
     {
         id:72,
-        name:Dewgong,
+        name:"Dewgong",
         number:36
     },
     {
         id:73,
-        name:Grimer,
+        name:"Grimer",
         number:37
     },
     {
         id:74,
-        name:Muk,
+        name:"Muk",
         number:37
     },
     {
         id:75,
-        name:Shellder,
+        name:"Shellder",
         number:38
     },
     {
         id:76,
-        name:Cloyster,
+        name:"Cloyster",
         number:38
     },
     {
         id:77,
-        name:Gastly,
+        name:"Gastly",
         number:39
     },
     {
         id:78,
-        name:Gengar,
+        name:"Gengar",
         number:39
     },
     {
         id:79,
-        name:Drowzee,
+        name:"Drowzee",
         number:40
     },
     {
         id:80,
-        name:Hypno,
+        name:"Hypno",
         number:40
     },
     {
         id:81,
-        name:Krabby,
+        name:"Krabby",
         number:41
     },
     {
         id:82,
-        name:Kingler,
+        name:"Kingler",
         number:41
     },
     {
         id:83,
-        name:Voltord,
+        name:"Voltorb",
         number:42
     },
     {
         id:84,
-        name:Electrode,
+        name:"Electrode",
         number:42
     },
     {
         id:85,
-        name:Exeggcute,
+        name:"Exeggcute",
         number:43
     },
     {
         id:86,
-        name:Exeggutor,
+        name:"Exeggutor",
         number:43
     },
     {
         id:87,
-        name: Cubone ,
+        name: "Cubone" ,
         number:44
     },
     {
         id:88,
-        name:Marowak,
+        name:"Marowak",
         number:44
     },
     {
         id: 89 ,
-        name: Koffing,
+        name: "Koffing",
         number: 45
     },
     {
         id:90 ,
-        name: Weezing ,
+        name: "Weezing" ,
         number:45
     },
     {
         id:91 ,
-        name: Rhyhorn ,
+        name: "Rhyhorn" ,
         number:46
     },
     {
         id:92 ,
-        name:Rhydon ,
+        name:"Rhydon" ,
         number:46
     },
     {
         id: 93,
-        name: Horsea,
+        name: "Horsea",
         number:47
     },
     {
         id:94 ,
-        name:Seadra ,
+        name:"Seadra" ,
         number:47
     },
     {
         id:95 ,
-        name:Goldeen ,
+        name:"Goldeen" ,
         number:48
     },
     {
         id:96 ,
-        name:Seaking ,
+        name:"Seaking" ,
         number:48
     },
     {
         id:97 ,
-        name:Staryu ,
+        name:"Staryu" ,
         number:49
     },
     {
         id:98 ,
-        name:Starmie ,
+        name:"Starmie" ,
         number:49
     },
     {
         id: 99,
-        name: Magikarp,
+        name: "Magikarp",
         number:50
     },
     {
         id:100 ,
-        name: Gyarados,
+        name: "Gyarados",
         number:50
     },
     {
         id: 101,
-        name: Omanyte,
+        name: "Omanyte",
         number:51
     },
     {
         id:102 ,
-        name: Omastar,
+        name: "Omastar",
         number:51
     },
     {
         id:103 ,
-        name: Kabuto,
+        name: "Kabuto",
         number:52
     },
     {
         id:104,
-        name: Kabutops,
+        name: "Kabutops",
         number:52
     },
 
@@ -523,4 +523,4 @@ const pokemon = [
 
 
 
-]
+];

@@ -1,0 +1,53 @@
+.container{
+    border:2px black solid;
+    background-color: rgb(133, 183, 202);
+    height: 20%;
+    padding: 10px 0 10px 0;
+    margin-bottom: 15px;
+}
+form{
+    width: 75%;
+}
+h2{
+    margin-left: 40%;
+}
+ul{
+    list-style: none;
+}
+.meme{
+    display:flex;
+    border:2px solid Black;
+    height:300px;
+    width:350px;
+    padding:5px;
+    margin-left:5%;
+    position: relative;
+
+}
+.meme img{
+    width:100%;
+
+}
+.meme .btn{
+    height:35px;
+    margin:0px;
+    position:absolute;
+    
+
+
+
+}
+.meme .upper{
+    position:absolute;
+    color:white;
+    left:25%;
+    font-size: 3rem;
+    
+}
+.meme .lower{
+    position:absolute;
+    bottom:2vh;
+    color:white;
+    left:25%;
+    font-size: 3rem;
+}

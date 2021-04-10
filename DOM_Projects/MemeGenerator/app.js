@@ -14,21 +14,17 @@ const buttons = document.getElementsByClassName('exit')
             bottomText.value
             );
         results.appendChild(meme);
-        
+        clearform();
     })
 
-for(let button of buttons){
-    button.addEventListener('click',(e)=>{
-        e.target.parentElement.remove();
-    })
-}
 
 function onSubmit(image, top, bottom){
         let newDiv = document.createElement('div');
         let button = document.createElement('button');
         let upper = document.createElement('h4');
         let downer = document.createElement('h4');
-
+        let newImage = document.createElement('img');
+        
         newDiv.classList.add('col-3', 'meme');
         button.innerText= 'X';
         button.classList.add('btn', 'btn-danger','exit');
@@ -46,4 +42,9 @@ function onSubmit(image, top, bottom){
         newDiv.appendChild(button);
 
         return newDiv;
+}
+function clearform (){
+    image.value="";
+    topText.value="";
+    bottomText.value="";
 }
